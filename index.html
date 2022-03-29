@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Likes</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div class="container">
+    <!-- banner -->
+    <div class="navbar">
+      <h1>Net<span class="orange" >Work</span> </h1>
+    </div>
+    <!-- banner -->
+    <div class="feed">
+      <h2>Your Feed</h2>
+    </div>
+    <!-- Feed container -->
+    <div class="feedcontainer flex">
+      <!-- left column -->
+      <div class="probox">
+      <div><img class="propic" src="./user_Icons/user-circle.png" alt=""></div>
+      <div class="center" ><a href="#">Add an avatar</a></div>
+      <div class="center"><h2>James Doe</h2></div>
+    </div>
+      <!-- left column end -->
+      <!-- right column start -->
+      <div class="rightc">
+        <div class="feedbox">
+          <!-- name like button -->
+          <div class="feedname flex">
+            <div> 
+              <p class="username">Some User</p>
+            </div>
+            <div class="flex liketab">
+              <p><span id="number">9</span> like(s)</p>
+              <div class= >
+                <button onclick="like()" class="btn">Like</button>
+              </div>
+             </div>
+            </div>    
+             <!-- name like button end -->
+            <div class="status" >
+              <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+            </div>
+        </div>
+            <!-- End status 1 -->
+            <!-- start status 2 -->
+        <div class="feedbox">
+          <div class="feedname flex">
+            <div> 
+              <p class="username">Nichole K</p>
+            </div>
+            <div class="flex liketab">
+              <p><span id="number1">12</span> like(s)</p>
+              <div class= >
+                <button onclick="like1()" class="btn">Like</button>
+              </div>
+             </div>
+            </div>
+            <div class="status" >
+              <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+        </div>
+        <!-- end status 2 -->
+        <!-- start status 3 -->
+        <div class="feedbox">
+          <div class="feedname flex">
+            <div> 
+              <p class="username">Jim R</p>
+            </div>
+            <div class="flex liketab">
+              <p><span id="number2">9</span> like(s)</p>
+              <div class= >
+                <button onclick="like2()" class="btn">Like</button>
+              </div>
+             </div>
+            </div>
+            <div class="status" >
+              <p>I cant stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- Feed cont. end -->
+
+
+
+
+
+
+  </div>
+<script src="./script.js"></script>
+</body>
+</html>
